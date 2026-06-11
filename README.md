@@ -1,28 +1,28 @@
 # 🎬 Empire Online — Top 100 Movies Scraper
 
-Este projeto recolhe automaticamente a lista dos **100 melhores filmes de sempre** segundo a Empire Online e gera um ficheiro de texto com todos os títulos organizados do nº 1 ao nº 100.
+This project automatically collects the list of the **Top 100 Greatest Movies of All Time** according to Empire Online and generates a text file with all titles organized from #1 to #100.
 
 ---
 
-## 📌 Objetivo
+## 📌 Objective
 
-Extrair os títulos presentes na página oficial da Empire Online, filtrá‑los de forma precisa e gerar uma lista final limpa e ordenada. O foco está em:
+Extract the titles from the official Empire Online page, filter them accurately, and generate a clean, ordered final list. The focus is on:
 
-- Aceder à página com cabeçalhos de navegador para evitar bloqueios  
-- Identificar corretamente os elementos HTML que contêm os títulos  
-- Filtrar apenas os títulos válidos  
-- Reverter a ordem para obter a lista do 1 ao 100  
-- Guardar o resultado num ficheiro simples
+- Accessing the page with browser‑like headers to avoid blocks  
+- Correctly identifying the HTML elements that contain the titles  
+- Filtering only valid movie titles  
+- Reversing the order to obtain the list from 1 to 100  
+- Saving the result to a simple file  
 
 ---
 
-## 🧠 Como Funciona
+## 🧠 How It Works
 
-O programa:
+The program:
 
-- Obtém o HTML da página da Empire Online usando cabeçalhos que simulam um browser real  
-- Analisa o conteúdo com BeautifulSoup  
-- Localiza os elementos que contêm os títulos dos filmes  
-- Extrai apenas os textos relevantes, ignorando elementos como “Director:”  
-- Organiza a lista na ordem correta  
-- Exporta todos os títulos para um ficheiro `movies.txt`
+- Retrieves the HTML from the Empire Online page using headers that simulate a real browser  
+- Parses the content with BeautifulSoup  
+- Locates the elements containing the movie titles  
+- Extracts only the relevant text, ignoring elements like “Director:”  
+- Organizes the list in the correct order  
+- Exports all titles to a `movies.txt` file  
